@@ -3,7 +3,7 @@
 import MySQLdb
 
 #connect db
-db = MySQLdb.connect("192.168.0.107", "admin_zone", "1q2w3e4R", "detection")
+db = MySQLdb.connect("192.168.0.107", "admin_zone", "xxxxxx", "detection")
 
 #get vernier
 cursor = db.cursor()
